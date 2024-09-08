@@ -1,0 +1,42 @@
+@import "./secoes/cabelcalho.css";
+@import "./secoes/principal.css";
+@import "./secoes/sobre.css";
+@import "./secoes/servicoes.css";
+@import "./secoes/portifolio.css";
+@import "./secoes/formulario.css";
+@import "./secoes/footer.css";
+/* variáveis */
+:root {
+  --main-bg-color: #f0f0f0;
+  --main-bg-light: #fff;
+  --main-text-color: #333;
+  --main-text-ligth: #ccc;
+  --primary-color: #007bff;
+  --secondary-color: #003670;
+  --ligth-color: #fff;
+  --font-family: Arial, sans-serif;
+  --header-heigth: 60px;
+}
+
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+

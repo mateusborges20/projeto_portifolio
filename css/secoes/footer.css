@@ -1,0 +1,19 @@
+
+footer {
+  background: var(--primary-color);
+  color: var(--ligth-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (width > 700px){
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}

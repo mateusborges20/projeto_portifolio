@@ -1,0 +1,37 @@
+
+header {
+  background: var(--primary-color);
+  height: var(--header-heigth);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: var( --ligth-color);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background: var(--secondary-color);
+}
+
+.nav-hide {
+  display: none;
+}
+
+@media (width > 700px) {
+  .nav-hide {
+    display: block;
+  }
+}
+

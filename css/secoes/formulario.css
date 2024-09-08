@@ -1,0 +1,36 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  text-align: left;
+}
+
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid var(--main-text-ligth);
+  color: var(--main-text-color);
+  border-radius: 8px;
+}
+
+form button {
+  background-color: var(--secondary-color);
+  color: var(--ligth-color);
+  border: 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #103;
+  color: #caf;
+  transform: scale(1.05);
+}

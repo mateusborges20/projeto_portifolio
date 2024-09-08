@@ -1,0 +1,31 @@
+
+.services-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.services-item {
+  flex: 1;
+  background-color: var(--main-bg-light);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.services-item h3 {
+  margin-bottom: 10px;
+}
+
+.services-item:hover {
+  transform: scale(1.05);
+}
+
+@media (width > 700px) {
+  .services-area {
+    flex-direction: row;
+  }
+
+}
